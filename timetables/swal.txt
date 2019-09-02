@@ -1,0 +1,11 @@
+<!--============================================================>
+<link rel="stylesheet" href="src/swal/sweetalert2.css">
+<link rel="stylesheet" href="src/swal/sweetalert2.min.css">
+<!--============================================================>
+
+<!-- SWEETALERT CDN -->
+	<script src="src/swal/sweetalert2.all.min.js"></script>
+	<script src="src/swal/sweetalert2.min.js"></script>
+    	<script src="src/swal/sweetalert2.all.min.js"></script>
+    	<script src="src/swal/sweetalert2.js"></script>
+<!-- SWEETALERT CDN -->
