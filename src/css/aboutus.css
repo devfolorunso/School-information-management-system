@@ -1,0 +1,124 @@
+.breadcrumb-about{
+	margin-top: 10%;
+	background-color:transparent;
+}
+
+.bread{
+	font-size:65px;
+	font-weight: bolder;
+	color: #ffffff;
+	margin-top: 15%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: none;
+}
+
+.breadcrumb .active  a, li {
+	color: #ffffff !important	;
+
+}
+
+.breadcrumb{
+	background: none;	
+	text-align: center;
+}
+
+.about-page{
+	background-image: url('bgs/1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 10%;
+}
+
+.description{
+	font-size: 16px !important;
+	color: rgba(0,0,0,0.7);
+	text-align: center;
+	line-height: 35px;
+}
+
+
+.cont{
+	background-image: -webkit-linear-gradient(90deg, rgba(0,0,0,0.5) 0%,  #fff 0.5%);
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+}
+.des-contd{
+	font-size: 16px !important;
+	color: rgba(0,0,0,0.7);
+	text-align:justify;
+	line-height: 35px;
+}
+
+.imgcont {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border:none;
+  border-radius:0px;
+  margin-bottom: 0% !important;
+  line-height: 0px !important;
+  padding: 0% !important;
+}
+
+.item {
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*border-radius: none !important;*/
+}
+
+
+.col{
+	background-color: #111;
+	padding: 0%;
+}
+.item img {
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: none !important;
+  /*width:480px;*/
+  height:320px;
+  margin-bottom: 0% !important;
+  line-height: 0px !important;
+
+}
+
+.imgcont:hover .item img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  border-radius: none !important;
+}
+
+.imgcont:hover .item p {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.item p{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	text-align: center;
+	color:#fff;	
+	font-size: 30px;
+	font-family: 'helvetica';
+	font-weight: bolder;
+	line-height: 35px;
+	 animation: 1.5s blink linear infinite;
+	 background-color: rgba(0,0,0,0.5);
+	 padding: 10px;
+}
+
+.item a{
+	color: #fff !important;
+}
+@keyframes blink{
+	0%{opacity: 0;}
+	25%{opacity:.2;}
+	25%{opacity:.5;}
+	75%{opacity: .8;}
+	100%{opacity: 1;}
+}
